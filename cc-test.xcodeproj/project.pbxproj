@@ -10,9 +10,13 @@
 		9020E52C2463BB20005F0A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020E52B2463BB20005F0A05 /* AppDelegate.swift */; };
 		9020E52E2463BB20005F0A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020E52D2463BB20005F0A05 /* SceneDelegate.swift */; };
 		9020E5302463BB20005F0A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020E52F2463BB20005F0A05 /* ViewController.swift */; };
-		9020E5332463BB20005F0A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9020E5312463BB20005F0A05 /* Main.storyboard */; };
 		9020E5352463BB24005F0A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9020E5342463BB24005F0A05 /* Assets.xcassets */; };
 		9020E5382463BB24005F0A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9020E5362463BB24005F0A05 /* LaunchScreen.storyboard */; };
+		90DE02ED2463FE0000CDA852 /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE02EB2463FE0000CDA852 /* CarouselItem.swift */; };
+		90DE02EE2463FE0000CDA852 /* CarouselItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DE02EC2463FE0000CDA852 /* CarouselItem.xib */; };
+		90DE02F22463FE1500CDA852 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE02EF2463FE1500CDA852 /* CarouselViewController.swift */; };
+		90DE02F32463FE1500CDA852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DE02F02463FE1500CDA852 /* Main.storyboard */; };
+		90DE02F42463FE1500CDA852 /* CarouselPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE02F12463FE1500CDA852 /* CarouselPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		9020E52B2463BB20005F0A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9020E52D2463BB20005F0A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9020E52F2463BB20005F0A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9020E5322463BB20005F0A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9020E5342463BB24005F0A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9020E5372463BB24005F0A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9020E5392463BB24005F0A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DE02EB2463FE0000CDA852 /* CarouselItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
+		90DE02EC2463FE0000CDA852 /* CarouselItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselItem.xib; sourceTree = "<group>"; };
+		90DE02EF2463FE1500CDA852 /* CarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		90DE02F02463FE1500CDA852 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		90DE02F12463FE1500CDA852 /* CarouselPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				9020E52B2463BB20005F0A05 /* AppDelegate.swift */,
 				9020E52D2463BB20005F0A05 /* SceneDelegate.swift */,
+				90DE02EB2463FE0000CDA852 /* CarouselItem.swift */,
+				90DE02EC2463FE0000CDA852 /* CarouselItem.xib */,
+				90DE02F12463FE1500CDA852 /* CarouselPageViewController.swift */,
+				90DE02EF2463FE1500CDA852 /* CarouselViewController.swift */,
+				90DE02F02463FE1500CDA852 /* Main.storyboard */,
 				9020E52F2463BB20005F0A05 /* ViewController.swift */,
-				9020E5312463BB20005F0A05 /* Main.storyboard */,
 				9020E5342463BB24005F0A05 /* Assets.xcassets */,
 				9020E5362463BB24005F0A05 /* LaunchScreen.storyboard */,
 				9020E5392463BB24005F0A05 /* Info.plist */,
@@ -126,8 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9020E5382463BB24005F0A05 /* LaunchScreen.storyboard in Resources */,
+				90DE02EE2463FE0000CDA852 /* CarouselItem.xib in Resources */,
 				9020E5352463BB24005F0A05 /* Assets.xcassets in Resources */,
-				9020E5332463BB20005F0A05 /* Main.storyboard in Resources */,
+				90DE02F32463FE1500CDA852 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DE02F22463FE1500CDA852 /* CarouselViewController.swift in Sources */,
 				9020E5302463BB20005F0A05 /* ViewController.swift in Sources */,
 				9020E52C2463BB20005F0A05 /* AppDelegate.swift in Sources */,
+				90DE02ED2463FE0000CDA852 /* CarouselItem.swift in Sources */,
+				90DE02F42463FE1500CDA852 /* CarouselPageViewController.swift in Sources */,
 				9020E52E2463BB20005F0A05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9020E5312463BB20005F0A05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9020E5322463BB20005F0A05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9020E5362463BB24005F0A05 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
